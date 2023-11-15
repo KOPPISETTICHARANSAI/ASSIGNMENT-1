@@ -1,0 +1,13 @@
+class Variables_example_1{
+ public static void main (String args[])
+{
+int number1=12;
+int number2=13;
+int number3=11;
+int a=number1+number2+number3;
+System.out.println  ("Addition of three numbers:"+a);
+System.out.println  ("Average of three numbers:"+(a/3));
+System.out.println  ("Subtraction of three numbers:"+(number1-number2-number3));
+System.out.println  ("Multiplication of three numbers:"+(number1*number2*number3));
+}
+}
