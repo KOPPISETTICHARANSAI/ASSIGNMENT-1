@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class Variables_examples {
+    public static void main(String args[]) {
+      Scanner ren = new Scanner(System.in);
+        int number1 = ren.nextInt();
+        int number2 = ren.nextInt();
+        if (number1 == number2)
+        {
+            System.out.println("Numbers are equal");
+        } 
+else
+ {
+            System.out.println("Numbers are not equal");
+ }
+        ren.close();
+ }
+ } 
