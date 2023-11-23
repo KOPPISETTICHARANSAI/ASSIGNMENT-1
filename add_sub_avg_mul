@@ -1,13 +1,18 @@
-class Variables_example_1{
- public static void main (String args[])
-{
-int number1=12;
-int number2=13;
-int number3=11;
-int a=number1+number2+number3;
-System.out.println  ("Addition of three numbers:"+a);
-System.out.println  ("Average of three numbers:"+(a/3));
-System.out.println  ("Subtraction of three numbers:"+(number1-number2-number3));
-System.out.println  ("Multiplication of three numbers:"+(number1*number2*number3));
-}
+import java.util.Scanner;
+class Variables_example_1 {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter a number:");
+        int a = sc.nextInt();
+        System.out.println("enter a number:");
+        int b = sc.nextInt();
+        System.out.println("enter a number:");
+        int c = sc.nextInt();
+        float result = a + b + c;
+        System.out.println("Addition of three numbers:" + result);
+        System.out.println("Average of three numbers:" + (result / 3));
+        System.out.println("Subtraction of three numbers:" + (a - b - c));
+        System.out.println("Multiplication of three numbers:" + (a * b * c));
+        sc.close();
+    }
 }
